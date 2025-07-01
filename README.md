@@ -44,7 +44,7 @@ StudyNotion is a full-stack EdTech web application that enables instructors to c
 - Express.js
 - MongoDB (Mongoose)
 - Cloudinary (for media uploads)
-- Stripe (for payments)
+- RazorPay (for payments)
 - Nodemailer (for emails)
 
 ---
