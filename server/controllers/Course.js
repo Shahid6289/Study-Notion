@@ -251,11 +251,11 @@ exports.getAllCourses = async (req, res) => {
 //         },
 //       })
 //       .exec()
-//     // console.log(
-//     //   "###################################### course details : ",
-//     //   courseDetails,
-//     //   courseId
-//     // );
+    // console.log(
+    //   "###################################### course details : ",
+    //   courseDetails,
+    //   courseId
+    // );
 //     if (!courseDetails || !courseDetails.length) {
 //       return res.status(400).json({
 //         success: false,

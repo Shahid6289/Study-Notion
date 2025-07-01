@@ -2,6 +2,8 @@ const User = require("../models/User")
 const mailSender = require("../utils/mailSender")
 const bcrypt = require("bcrypt")
 const crypto = require("crypto")
+
+
 exports.resetPasswordToken = async (req, res) => {
   try {
     const email = req.body.email
@@ -9,7 +11,7 @@ exports.resetPasswordToken = async (req, res) => {
     if (!user) {
       return res.json({
         success: false,
-        message: `This Email: ${email} is not Registered With Us Enter a Valid Email `,
+        message: `This Email: ${email} is not Registered With Us. Please Enter a Valid Email`,
       })
     }
     const token = crypto.randomBytes(20).toString("hex")
