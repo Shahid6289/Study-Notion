@@ -18,7 +18,7 @@ StudyNotion is a full-stack EdTech web application that enables instructors to c
 - Categorized browsing of courses
 
 ### 💳 Payments & Enrollment
-- Stripe integration for secure payments
+- Razor Pay integration for secure payments
 - Track enrolled courses in user dashboard
 
 ### 📺 Video Learning
